@@ -1,4 +1,4 @@
- # A complete guide for unlocking and installing a secure, Google-less, LineageOS 19.1 on a Redmi Note 10 (mojito). <a href="https://forum.xda-developers.com/m/ptx64.11988819/">By PTX64 @ XDA Developers</a>
+ # A complete guide for unlocking and installing a secure, Google-less, LineageOS 19.1 on a Redmi Note 10 (mojito).
 
 - Including the latest Xiaomi firmwares.
 
@@ -7,6 +7,8 @@
 - Magisk & modules: MicroG, Safenet, SSH.
 
 - Required basic app's: AuroraStore, Google Camera, AdAway and AFWall.
+### <a href="https://forum.xda-developers.com/m/ptx64.11988819/">By PTX64 @ XDA Developers</a>
+
 ## Purpose:
 
 Installing LineageOS 19.1 on a Redmi Note 10 (mojito) in order to have a fully Google Authenticated, Google-less, fast, lightweight and hardened phone, which allows the usage of most app's without any issues.
