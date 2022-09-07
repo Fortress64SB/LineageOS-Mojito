@@ -2,20 +2,20 @@
 
 ### <a href="https://forum.xda-developers.com/m/ptx64.11988819/">By PTX64 @ XDA Developers</a>
 
-## Purpose:
+## Purpose
 
 Installing LineageOS 19.1 on a Redmi Note 10 (mojito) and turn it into a fully Google Authenticated, Google-less, fast, lightweight and hardened phone, which allows the usage of most app's without any issues.
 
 Internet access is blocked by default on newly installed and possible rogue apps. (Google) app spying habits, bloatware, advertisements etc. are removed, circumvented or blocked by default.
 
-## Features:
+## Features
 
 - Installing and/or restoring the latest Xiaomi vendor firmwares.
 - Installing TWRP recovery and disabling file-based encryption (FBE).
 - Installing Magisk & the required modules: MicroG, Safenet, SSH.
 - Installing additonal app's: AuroraStore, Google Camera, AdAway and AFWall.
 
-## Copyright, disclaimer, coverage and requirements:
+## Copyright, disclaimer, coverage and requirements
 
 - All copyright goes the respected owners.
 - Everything you do is at your own risk.
@@ -25,30 +25,21 @@ Internet access is blocked by default on newly installed and possible rogue apps
 - If you cannot connect to your phone using the minimal ADB/fastboot tool on Windows, this driver must be installed: https://gsmusbdriver.com/xiaomi-mi-note-10
 - Most Linux distributions provide the required USB drivers by default, and you can install the ADB/fastboot tools though their package managers.
 
-## 1. Unlocking the device.
-**if you don't do this, you'll will end up with issues or a bricked device later on.**
+## 1. Unlocking the device *
 
-- First ensure your official MIUI OS is up to date, backup your phone and do a factory reset on it.
+- First ensure the official MIUI OS is up to date on you phone, backup your files and perform a factory reset.
+- Then follow this guide: https://c.mi.com/thread-2262302-1-0.html
 
-- Then follow this guide: https://c.mi.com/thread-2262302-1-0.html , grow a beard in the meantime and complain to Xiaomi. And yes, the excuses for the locking device in this manner has mostly to due with revenue, control and monitoring by Xiaomi, not mainly user security.
-
-
-* When the device is now unlocked: *
+## 2. Remove your Mi Account on the phone after unlocking *
 
 - Go to “Settings” > “Mi Account” > “Mi Cloud”.
-
 - Turn off all synchronization options and most importantly disable “Device Search”.
-
 - At this point the verification should start and phone number will be requested (otherwise you can enter Mi account ID number or email).
-
 - Next enter your account password, fill in captcha and device search will be disabled.
-
 - Go back to “Mi Account” and press “Quit Mi Account”, you’ll see 3 available options, select “Delete from phone”.
 
 
-## 2. Updating and clean reflashing the device.
-**Again, if you don't do this, you'll will end up with issues or a bricked device later on.**
-
+## 2. Updating and clean reflashing the device *
 This step is to ensure you have a fully up-to-date and clean device. You can repeat this step too if you want to revert back to your official Xiaomi MIUI personal spy device and re-lock the device afterwards.
 
 - Unsure that the correct USB driver, fastboot and ADB tools are installed.
@@ -64,4 +55,6 @@ This step is to ensure you have a fully up-to-date and clean device. You can rep
 
 
 ## 3. Working on it...
+
+* **If this procedure isn't followed properly, you risk bricking the phone or end up with issues later on.**
 
