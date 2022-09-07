@@ -1,34 +1,36 @@
- # A complete guide for unlocking and installing a secure, Google-less, LineageOS 19.1 on a Redmi Note 10 (mojito).
+ # A complete guide for unlocking and installing a secure, Google-less, LineageOS 19.1 on a Xiaomi Redmi Note 10 (mojito).
 
-- Including the latest Xiaomi firmwares.
-
-- TWRP & file-based encryption (FBE) disabler.
-
-- Magisk & modules: MicroG, Safenet, SSH.
-
-- Required basic app's: AuroraStore, Google Camera, AdAway and AFWall.
 ### <a href="https://forum.xda-developers.com/m/ptx64.11988819/">By PTX64 @ XDA Developers</a>
 
 ## Purpose:
 
-Installing LineageOS 19.1 on a Redmi Note 10 (mojito) in order to have a fully Google Authenticated, Google-less, fast, lightweight and hardened phone, which allows the usage of most app's without any issues.
+Installing LineageOS 19.1 on a Redmi Note 10 (mojito) and turn it into a fully Google Authenticated, Google-less, fast, lightweight and hardened phone, which allows the usage of most app's without any issues.
 
-It will block any internet access to newly installed and possible rogue apps, circumvent or block (Google) app spying habits, bloatware, advertisements and more by default.
+Internet access is blocked by default on newly installed and possible rogue apps. (Google) app spying habits, bloatware, advertisements etc. are removed, circumvented or blocked by default.
 
+## Features:
+
+- Installing and/or restoring the latest Xiaomi vendor firmwares.
+
+- Installing TWRP recovery and disabling file-based encryption (FBE).
+
+- Installing Magisk & the required modules: MicroG, Safenet, SSH.
+
+- Installing additonal app's: AuroraStore, Google Camera, AdAway and AFWall.
 
 ## Disclaimer, coverage, requirements and software basics:
 
 - All copyright goes the respected owners, everything you do is at your own risk.
 
-- Installing and using the Xiaomi unlock, fastboot and ADB tools is only covered in simple command terms because this is out-of-scope of this HOWTO.
+- Installing and using the Xiaomi unlock, fastboot and ADB tools is only covered in simple command terms.
 
 - Windows is required for the Mi Unlock App
 
 - If Windows is used for installing LineageOS on the phone, download and install the latest minimal ADB/fastboot tool here: https://androidmtk.com/download-minimal-adb-and-fastboot-tool
 
-- If you cannot connect to your phone using the minimal ADB/fastboot, install the driver if not already installed: https://gsmusbdriver.com/xiaomi-mi-note-10
+- If you cannot connect to your phone using the minimal ADB/fastboot on Windows, install this driver: https://gsmusbdriver.com/xiaomi-mi-note-10
 
-. Most Linux distributions provide the required USB driver by default, and you can install ADB and fastboot though the package manager.
+- Most Linux distributions provide the required USB driver by default, and you can install ADB and fastboot tools though their package managers.
 
 ## 1. Unlocking the device.
 **if you don't do this, you'll will end up with issues or a bricked device later on.**
