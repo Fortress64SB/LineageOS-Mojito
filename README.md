@@ -3,20 +3,17 @@
 ### <a href="https://forum.xda-developers.com/m/ptx64.11988819/">By PTX64 @ XDA Developers</a>
 
 ## Purpose
-
 Installing LineageOS 19.1 on a Redmi Note 10 (mojito) and turn it into a fully Google Authenticated, Google-less, fast, lightweight and hardened phone, which allows the usage of most app's without any issues.
 
 Internet access is blocked by default on newly installed and possible rogue apps. (Google) app spying habits, bloatware, advertisements etc. are removed, circumvented or blocked by default.
 
 ## Features
-
 - Installing and/or restoring the latest Xiaomi vendor firmwares.
 - Installing TWRP recovery and disabling file-based encryption (FBE).
 - Installing Magisk & the required modules: MicroG, Safenet, SSH.
 - Installing additonal app's: AuroraStore, Google Camera, AdAway and AFWall.
 
 ## Copyright, disclaimer, coverage and requirements
-
 - All copyright goes the respected owners.
 - Everything you do is at your own risk.
 - Installing and using the Xiaomi unlock, fastboot and ADB tools is only covered in simple terms.
@@ -26,12 +23,10 @@ Internet access is blocked by default on newly installed and possible rogue apps
 - Most Linux distributions provide the required USB drivers by default, and you can install the ADB/fastboot tools though their package managers.
 
 ## 1. Unlocking the device *
-
-- First ensure the official MIUI OS is up to date on you phone, backup your files and perform a factory reset.
+- First ensure that the official MIUI OS is up to date on you phone, backup your files and perform a factory reset.
 - Then follow this guide: https://c.mi.com/thread-2262302-1-0.html
 
 ## 2. Remove your Mi Account on the phone after unlocking *
-
 - Go to “Settings” > “Mi Account” > “Mi Cloud”.
 - Turn off all synchronization options and most importantly disable “Device Search”.
 - At this point the verification should start and phone number will be requested (otherwise you can enter Mi account ID number or email).
@@ -39,7 +34,7 @@ Internet access is blocked by default on newly installed and possible rogue apps
 - Go back to “Mi Account” and press “Quit Mi Account”, you’ll see 3 available options, select “Delete from phone”.
 
 
-## 2. Updating and clean reflashing the device *
+## 3. Updating and clean reflashing the device *
 This step is to ensure you have a fully up-to-date and clean device. You can repeat this step too if you want to revert back to your official Xiaomi MIUI personal spy device and re-lock the device afterwards.
 
 - Unsure that the correct USB driver, fastboot and ADB tools are installed.
