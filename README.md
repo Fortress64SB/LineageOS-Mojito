@@ -11,26 +11,19 @@ Internet access is blocked by default on newly installed and possible rogue apps
 ## Features:
 
 - Installing and/or restoring the latest Xiaomi vendor firmwares.
-
 - Installing TWRP recovery and disabling file-based encryption (FBE).
-
 - Installing Magisk & the required modules: MicroG, Safenet, SSH.
-
 - Installing additonal app's: AuroraStore, Google Camera, AdAway and AFWall.
 
-## Disclaimer, coverage, requirements and software basics:
+## Copyright, disclaimer, coverage and requirements:
 
-- All copyright goes the respected owners, everything you do is at your own risk.
-
-- Installing and using the Xiaomi unlock, fastboot and ADB tools is only covered in simple command terms.
-
+- All copyright goes the respected owners.
+- Everything you do is at your own risk.
+- Installing and using the Xiaomi unlock, fastboot and ADB tools is only covered in simple terms.
 - Windows is required for the Mi Unlock App
-
-- If Windows is used for installing LineageOS on the phone, download and install the latest minimal ADB/fastboot tool here: https://androidmtk.com/download-minimal-adb-and-fastboot-tool
-
-- If you cannot connect to your phone using the minimal ADB/fastboot on Windows, install this driver: https://gsmusbdriver.com/xiaomi-mi-note-10
-
-- Most Linux distributions provide the required USB driver by default, and you can install ADB and fastboot tools though their package managers.
+- If Windows is used for installing software on the phone, the latest minimal ADB/fastboot tool must be installed: https://androidmtk.com/download-minimal-adb-and-fastboot-tool
+- If you cannot connect to your phone using the minimal ADB/fastboot tool on Windows, this driver must be installed: https://gsmusbdriver.com/xiaomi-mi-note-10
+- Most Linux distributions provide the required USB drivers by default, and you can install the ADB/fastboot tools though their package managers.
 
 ## 1. Unlocking the device.
 **if you don't do this, you'll will end up with issues or a bricked device later on.**
